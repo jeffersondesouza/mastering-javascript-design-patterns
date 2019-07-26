@@ -1,5 +1,7 @@
 ## Design Patterns
-  Cada Padrão descreve uma problema comum bem como a solução para o mesmo
+  Cada Padrão descreve uma problema comum bem como a solução para o mesmo.
+
+  A ideia nao é mostrar como construir software e sim solucionar problemas comuns na sua construção.
 
 ### Padrões de Criação (Creational)
   Padrões ligados à criação de objetos bem como o gerenciamento do seu ciclo de vida
