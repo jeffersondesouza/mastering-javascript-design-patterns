@@ -1,20 +1,26 @@
-var Westeros = Westeros || {};
-Westeros.Structures = Westeros.Structures || {};
+var Westeros;
+(function(Westeros) {
+  Westeros.Houses = {};
 
-var Castle = (function() {
-  function Castle(name) {
-    this.name = name;
-  }
-
-  Castle.prototype.Build = function() {
-    console.log("Castle built: " + this.name);
+  Westeros.Houses.Targaryen = function() {
+    this.name = "Targaryen";
   };
 
-  return Castle;
-})();
+  var Ruler = (function() {
+    function Ruler() {
+      this.house = new Westeros.Houses.Targaryen();
+    }
+    return Ruler;
+  })();
 
-Westeros.Structures.Castle = Castle;
+  Westeros.Ruler = Ruler;
+})(Westeros || (Westeros = {}));
 
-var winterfel = new Westeros.Structures.Castle("winterfel");
+console.log("Westeros:", Westeros);
 
-winterfel.Build();
+Westeros.Houses.Targaryen = function() {
+  this.name = null;
+};
+
+const r = new Westeros.Ruler();
+console.log("r:", r.house.name);

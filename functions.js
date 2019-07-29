@@ -1,60 +1,41 @@
-/* const marcador = document.getElementById("js-marcador");
-let timer = 0;
-setInterval(() => {
-  timer++;
-  marcador.innerHTML = timer;
-}, 1000);
-  */
+var Westeros = Westeros || {};
+Westeros.Structures = Westeros.Structures || {};
+Westeros.Houses = Westeros.Houses || {};
 
- var functionObject = {
-  greeting: "Hello world",
-  doThings: function() {
-    console.log(this.greeting);
-    console.log(this);
-    this.doOthersThings();
-  },
-  doOthersThings: function() {
-    console.log(
-      this.greeting
-        .split("")
-        .reverse()
-        .join()
-    );
+var Castle = (function() {
+  function Castle(name) {
+    this.name = name;
   }
-};
 
-functionObject.doThings();
-
-var FunctionObject = function(greeting) {
-  console.log(this);
-  this.greeting = greeting;
-  this.doThings = function() {
-    console.log(this.greeting);
-    console.log(this);
-    this.doOthersThings();
+  Castle.prototype.Build = function() {
+    console.log("Castle built: " + this.name);
   };
 
-  this.doOthersThings = function() {
-    console.log(
-      this.greeting
-        .split("")
-        .reverse()
-        .join()
-    );
+  return Castle;
+})();
+
+var Targarian = (function() {
+  function Targarian(name, label) {
+    this.name = name;
+    this.label = label;
+  }
+
+  Targarian.prototype.War = function() {
+    console.log(this.name + " says: " + this.label);
   };
-};
 
-var fo = new FunctionObject("Ola mundo");
-fo.doThings();
+  return Targarian;
+})();
 
-var Castel = function(name) {
-  this.name = name;
-};
+Westeros.Structures.Castle = Castle;
+Westeros.Houses.Targarian = Targarian;
 
-Castel.prototype.build = function() {
-  console.log(this.name);
-};
+var winterfel = new Westeros.Structures.Castle("winterfel");
+var targarian = new Westeros.Houses.Targarian("Targarian", "Fire and Blood");
 
-const ct = new Castel("Winterfell");
+winterfel.Build();
 
-ct.build();
+targarian.War();
+
+
+
