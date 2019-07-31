@@ -30,3 +30,11 @@ Além da apresentação dos padões, devemos nos lembra que existem AntiPatter, 
 Padrões ligados à criação de objetos bem como o gerenciamento do seu ciclo de vida
 
 - Abstract Factory
+- Builder
+- Factory Method
+- Singleton
+- Prototype
+
+### Abstract Factory
+
+Responsável por criar kits de objetos sem saber os tipos concretos dos objeto
