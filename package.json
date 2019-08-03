@@ -1,0 +1,22 @@
+{
+  "name": "mastering-javascript-design-patterns",
+  "version": "1.0.0",
+  "description": "Cada Padrão descreve uma problema comum bem como a solução para o mesmo.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./Builder/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffersondesouza/mastering-javascript-design-patterns.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffersondesouza/mastering-javascript-design-patterns/issues"
+  },
+  "homepage": "https://github.com/jeffersondesouza/mastering-javascript-design-patterns#readme",
+  "dependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
