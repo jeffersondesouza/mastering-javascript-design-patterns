@@ -35,8 +35,4 @@ Padrões ligados à criação de objetos bem como o gerenciamento do seu ciclo d
 - Singleton
 - Prototype
 
-### Abstract Factory
-Responsável por criar kits de objetos sem saber os tipos concretos dos objeto;
-
-### Builder
-Algumas classes contém diferentes interfaces de implementação dependendo de como devem ser construidas. Em order para simplificar esse processo e encapsular o conhecimento de como tais classes sao construidas podemos utilizar de um Builder.
+## CAP 3 - Structural Patterns

@@ -1,0 +1,22 @@
+const res = {
+  payment__cc_number: "XXXX-XXXX-XXXX-1111",
+  first_name: "volmogiste@desoz.com",
+  signup_cost: 5000,
+  user_type: "PF",
+  uc_number: "990197816",
+  net_phase: 0,
+  quota_signup_dates: ["2019-05-05T20:12:36.079Z"],
+  invite_code: "MzsIPq",
+  payment__cc_brand: "VISA",
+  response: "Login realizado com sucesso!",
+  token: "01918594a05b55e41ebad2a9371e7b89a268d53c",
+  email: "volmogiste@desoz.com",
+  profile_completion: 60,
+  payment__cc_name: "volmogiste@desoz.com volmogiste@desoz.com",
+  payment__exp_year: 2020,
+  payment__exp_month: 1,
+  last_name: "volmogiste@desoz.com",
+  complete_signup: true,
+  status: 0,
+  distributor_name: "CEEE-D"
+};
