@@ -4,7 +4,7 @@
   "description": "Cada Padrão descreve uma problema comum bem como a solução para o mesmo.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./FactoryMethod/index.js"
+    "start": "nodemon ./Singleton/index.js"
   },
   "repository": {
     "type": "git",
