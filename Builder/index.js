@@ -97,7 +97,7 @@ const HttpGet = data => {
 
 const TOKEN_RESPONSE = {
   payment__cc_number: "XXXX-XXXX-XXXX-1111",
-  first_name: "volmogiste@desoz.com",
+  first_name: "joao@email.com",
   signup_cost: 5000,
   user_type: "PF",
   uc_number: "990197816",
@@ -106,13 +106,13 @@ const TOKEN_RESPONSE = {
   invite_code: "MzsIPq",
   payment__cc_brand: "VISA",
   response: "Login realizado com sucesso!",
-  token: "01918594a05b55e41ebad2a9371e7b89a268d53c",
-  email: "volmogiste@desoz.com",
+  token: "1a2s3d4f5g",
+  email: "joao@email.com",
   profile_completion: 60,
-  payment__cc_name: "volmogiste@desoz.com volmogiste@desoz.com",
+  payment__cc_name: "joao@email.com joao@email.com",
   payment__exp_year: 2020,
   payment__exp_month: 1,
-  last_name: "volmogiste@desoz.com",
+  last_name: "joao@email.com",
   complete_signup: true,
   status: 0,
   distributor_name: "CEEE-D"
